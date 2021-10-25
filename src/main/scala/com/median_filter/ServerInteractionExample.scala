@@ -40,7 +40,7 @@ class LinearMedianFilterActor ( var windowWidth: Int, var windowHeight: Int ) ex
     }
     outputPixelValue
   }
-//input for train test image
+//input for chaplain test image
   def receive: Receive = {
     case image:BufferedImage =>
       log.info("Received image")
